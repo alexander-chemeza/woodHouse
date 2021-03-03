@@ -1,0 +1,187 @@
+.offer {
+    width: 100%;
+    height: 940px;
+    background-color: #25252d;
+    padding: 0 10%;
+    background-image: url("../img/section-2/bg.png");
+    background-position-x: 50%;
+    background-position-y: 0;
+}
+
+.offer-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer__main-content {
+    padding-top: 15rem;
+}
+
+.offer-progress {
+    margin-top: 6rem;
+    background-color: #27262c;
+    height: 3.5rem;
+    border-radius: 1rem;
+    box-shadow: inset 0 0 15px #1f1f1f, 0 0 30px rgba(240, 213, 185, 0.1);
+}
+
+.offer-progress-fill {
+    background-color: #d8bb9c !important;
+    color: #25252d;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    background-image: url("../img/section-2/pattern.png");
+    background-repeat: repeat;
+    background-position: 50%;
+}
+
+.offer-separator {
+    margin-top: 6rem;
+}
+
+.offer-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer-form__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-cards__item {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer-cards__item:first-of-type {
+    margin-left: 0;
+}
+
+.offer-cards__item:last-of-type {
+    margin-right: 0;
+}
+
+.offer-cards__item img {
+    width: 26rem;
+    height: 19rem;
+    border-radius: 1rem;
+    border: 7px solid #d8bb9c;
+    margin-bottom: 1.5rem;
+}
+
+.offer-next-btn {
+    text-transform: uppercase;
+    margin-top: 5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: block;
+    padding: 1.25rem 5rem;
+    border: none;
+    border-radius: 2.5rem;
+    background-color: #d8bb9c;
+}
+
+.offer-cards__item label {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.offer-sidebar {
+    margin-top: 15rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #28272d;
+    border: 7px solid #151518;
+}
+
+.offer-sidebar__top {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgb(148, 148, 148);
+}
+
+.offer-user {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.offer-user img {
+    width: 8.5rem;
+    height: 8.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.offer-user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-user-name {
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.offer-user-employment {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.offer-question {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+    color: #d8bb9c;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.offer-sidebar-list {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-list-header {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.offer-list-item {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.offer-list-item p {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.offer-list-item img {
+    margin-right: 1.5rem;
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+}

@@ -1,0 +1,113 @@
+.intro {
+    width: 100%;
+    height: 1040px;
+    background-color: black;
+    background-image: url("../img/section-1/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position-x: 100%; */
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+
+.intro-header {
+    max-width: 60rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25rem;
+}
+
+.intro-header__subheader {
+    color: #eed1b3;
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+
+.intro-header__main {
+    margin-top: 2rem;
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.intro-pluses {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.intro-pluses__item {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 3.6;
+    background-image: url("../img/section-1/item.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 3rem;
+}
+
+.calculation-box {
+    margin-top: 6rem;
+}
+
+.calculation-btn {
+    font-size: 1.4rem;
+    font-weight: 500;
+    background: #efd2b4;
+    padding: 15px 40px;
+    border: 2px solid #efd2b4;
+    border-radius: 50px;
+    color: rgb(44, 44, 44);
+    text-transform: uppercase;
+    transition: all .2s;
+}
+
+.calculation-btn:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.benefits {
+    margin-top: 6rem;
+    display: flex;
+    max-width: 1140px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.benefits__item {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 26rem;
+    height: 13rem;
+    background: rgb(23, 23, 27);
+    background: linear-gradient(0deg, rgba(23, 23, 27, 1) 0%, rgba(68, 68, 72, 1) 100%);
+    border-radius: 10px;
+    padding: 1rem 6rem 1rem 1rem;
+}
+
+.benefits__item-header,
+.benefits__item-content {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #e7c39d;
+}
+
+.benefits__item-content {
+    color: #fff;
+}
+
+.benefits__item-img {
+    position: absolute;
+    top: -5%;
+    left: 70%;
+}

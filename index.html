@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каркасные дома</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="header">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">
+                    <img class="navbar-brand-img" src="./img/header/logo.png" alt="logo">
+                </a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Стоимость</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Проекты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Преимущества</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Кейсы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Отзывы</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-box">
+                <div class="header-phones">
+                    <div class="row phone-row">
+                        <img src="./img/header/phone-one.png" alt="phone">
+                        <span class="phone-number">+7 (925) 125 25 35</span>
+                    </div>
+                    <div class="row phone-row">
+                        <img src="./img/header/phone-two.png" alt="phone">
+                        <span class="phone-number">+7 (925) 125 25 35</span>
+                    </div>
+                </div>
+                <div class="caller-box">
+                    <button class="caller-box-btn">Обратный звонок</button>
+                </div>
+            </div>
+        </header>
+
+        <section class="intro">
+            <div class="row">
+                <div class="intro-header">
+                    <h4 class="intro-header__subheader">С пожизненной гарантией</h4>
+                    <h1 class="intro-header__main">Каркасные дома "под ключ"</h1>
+                    <ul class="intro-pluses">
+                        <li class="intro-pluses__item">Надежные</li>
+                        <li class="intro-pluses__item">Теплые</li>
+                        <li class="intro-pluses__item">Экономичные</li>
+                        <li class="intro-pluses__item">Комфортные</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row calculation-box">
+                <button class="calculation-btn">Рассчитать стоимость</button>
+            </div>
+            <div class="row benefits">
+                <div class="benefits__item">
+                    <h5 class="benefits__item-header">Прозрачные цены</h5>
+                    <p class="benefits__item-content">Без скрытых платежей и переплат</p>
+                    <img class="benefits__item-img" src="./img/section-1/complex.png" alt="">
+                </div>
+                <div class="benefits__item">
+                    <h5 class="benefits__item-header">Весь комплекс работ</h5>
+                    <p class="benefits__item-content">от проекта до благоустройства территории</p>
+                    <img class="benefits__item-img" src="./img/section-1/work.png" alt="">
+                </div>
+                <div class="benefits__item">
+                    <h5 class="benefits__item-header">Гарантии на все</h5>
+                    <p class="benefits__item-content">выполненные работы</p>
+                    <img class="benefits__item-img" src="./img/section-1/medal.png" alt="">
+                </div>
+                <div class="benefits__item">
+                    <h5 class="benefits__item-header">Работаем по 240 указу</h5>
+                    <p class="benefits__item-content">Строительство и ремонт для многодетных и нуждающихся</p>
+                    <img class="benefits__item-img" src="./img/section-1/people.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="offer">
+            <div class="row offer-main">
+                <div class="col col-lg-8 offer__main-content">
+                    <h2 class="section-header">
+                        Получите <span class="section-header__fill">лучшее предложение</span> по строительству дома ответив на 6 вопросов
+                    </h2>
+                    <div class="progress offer-progress">
+                        <div class="progress-bar offer-progress-fill" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Вопрос 2 из 6</div>
+                    </div>
+                    <h6 class="section-separator offer-separator">Укажите этажность дома</h6>
+                    <div class="offer-cards">
+                        <form action="" class="offer-form">
+                            <div class="offer-form__content">
+                                <div class="offer-cards__item">
+                                    <img src="./img/section-2/house.png" alt="pic">
+                                    <input type="radio" name="floor" id="one">
+                                    <label for="one">1 этаж</label>
+                                </div>
+                                <div class="offer-cards__item">
+                                    <img src="./img/section-2/house.png" alt="pic">
+                                    <input type="radio" name="floor" id="two">
+                                    <label for="two">2 этажа</label>
+                                </div>
+                                <div class="offer-cards__item">
+                                    <img src="./img/section-2/house.png" alt="pic">
+                                    <input type="radio" name="floor" id="three">
+                                    <label for="three">3 этажа</label>
+                                </div>
+                            </div>
+                            <input class="offer-next-btn" type="submit" value="Далее">
+                        </form>
+                    </div>
+                </div>
+                <div class="col col-lg-3">
+                    <div class="offer-sidebar">
+                        <div class="offer-sidebar__top">
+                            <div class="row offer-user">
+                                <div class=" col col-lg-4">
+                                    <img src="./img/section-2/man.png" alt="pic">
+                                </div>
+                                <div class="col col-lg-8 offer-user-info">
+                                    <h6 class="offer-user-name">Иван Иванов</h6>
+                                    <p class="offer-user-employment">Специалист по каркасным домам</p>
+                                </div>
+                            </div>
+                            <h6 class="offer-question">“Ответьте на вопросы, чтобы мы рассчитали для Вас стоимость”</h6>
+                        </div>
+
+                        <div class="offer-sidebar-list">
+                            <h6 class="offer-list-header">После прохождения теста вы получите:</h6>
+                            <div class="offer-list-item">
+                                <img src="./img/section-2/project.png" alt="pic">
+                                <p>Проект дома - бесплатно</p>
+                            </div>
+                            <div class="offer-list-item">
+                                <img src="./img/section-2/discount.png" alt="pic">
+                                <p>Скидка на строительные материалы</p>
+                            </div>
+                            <div class="offer-list-item">
+                                <img src="./img/section-2/order.png" alt="pic">
+                                <p>Чек-лист: Как сэкономить при строительстве дома</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project">
+            <h2 class="section-header">
+                Выберите <span class="section-header__fill">Готовый проект дома</span><br>или закажите индивидуальный проект
+            </h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <div class="project-item-slider">
+                        <div class="project-item-slider-prev"></div>
+                        <img src="./img/section-3/house-1.png" alt="">
+                        <div class="project-item-slider-next"></div>
+                    </div>
+                    <div class="project-small-img">
+                        <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                        <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                    </div>
+                    <h6 class="project-item-header">
+                        Проект каркасного дома Д1
+                    </h6>
+                    <div class="project-size">
+                        <img src="./img/section-3/icon.png" alt="ico">
+                        <span class="size">104 м<sup><small>2</small></sup></span>
+                        <img src="./img/section-3/icon.png" alt="ico">
+                        <span class="size">104 м<sup><small>2</small></sup></span>
+                    </div>
+                    <a href="#" class="project-info">Комплектация дома</a>
+                    <button class="project-btn">Получить консультацию</button>
+                </div>
+                <div class="project-item">
+                    <div class="project-item-slider">
+                        <div class="project-item-slider-prev"></div>
+                        <img src="./img/section-3/house-1.png" alt="">
+                        <div class="project-item-slider-next"></div>
+                    </div>
+                    <div class="project-small-img">
+                        <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                        <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                    </div>
+                    <h6 class="project-item-header">
+                        Проект каркасного дома Д1
+                    </h6>
+                    <div class="project-size">
+                        <img src="./img/section-3/icon.png" alt="ico">
+                        <span class="size">104 м<sup><small>2</small></sup></span>
+                        <img src="./img/section-3/icon.png" alt="ico">
+                        <span class="size">104 м<sup><small>2</small></sup></span>
+                    </div>
+                    <a href="#" class="project-info">Комплектация дома</a>
+                    <button class="project-btn">Получить консультацию</button>
+                </div>
+                <div class="project-item">
+                    <div class="project-item-slider">
+                        <div class="project-item-slider-prev"></div>
+                        <img src="./img/section-3/house-1.png" alt="">
+                        <div class="project-item-slider-next"></div>
+                    </div>
+                    <div class="project-small-img">
+                        <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                        <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                    </div>
+                    <h6 class="project-item-header">
+                        Проект каркасного дома Д1
+                    </h6>
+                    <div class="project-size">
+                        <img src="./img/section-3/icon.png" alt="ico">
+                        <span class="size">104 м<sup><small>2</small></sup></span>
+                        <img src="./img/section-3/icon.png" alt="ico">
+                        <span class="size">104 м<sup><small>2</small></sup></span>
+                    </div>
+                    <a href="#" class="project-info">Комплектация дома</a>
+                    <button class="project-btn">Получить консультацию</button>
+                </div>
+                <div class="project-item">
+                    <div class="project-item-slider">
+                        <div class="project-item-slider-prev"></div>
+                        <img src="./img/section-3/house-1.png" alt="">
+                        <div class="project-item-slider-next"></div>
+                    </div>
+                    <div class="project-small-img">
+                        <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                        <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                    </div>
+                    <h6 class="project-item-header">
+                        Проект каркасного дома Д1
+                    </h6>
+                    <div class="project-size">
+                        <img src="./img/section-3/icon.png" alt="ico">
+                        <span class="size">104 м<sup><small>2</small></sup></span>
+                        <img src="./img/section-3/icon.png" alt="ico">
+                        <span class="size">104 м<sup><small>2</small></sup></span>
+                    </div>
+                    <a href="#" class="project-info">Комплектация дома</a>
+                    <button class="project-btn">Получить консультацию</button>
+                </div>
+            </div>
+            <button class="project-btn" style="margin-top: 4rem;">Смотреть еще</button>
+        </section>
+
+        <section class="facts">
+            <h6 class="section-preheader">Несколько фактов компании Brushous</h6>
+            <h2 class="section-header" style="margin-top: 2rem;">
+                Почему строительство дома<br><span class="section-header__fill">нужно доверить именно нам</span>
+            </h2>
+            <div class="facts-list">
+                <div class="facts-items">
+                    <div class="facts-item">
+                        <img src="./img/section-4/building.png" alt="pic">
+                        <div class="facts-item__content">
+                            <h6 class="facts-item__header">Солидный опыт строитесльства</h6>
+                            <span class="fact">Более 15 лет</span>
+                        </div>
+                    </div>
+                    <div class="facts-item">
+                        <img src="./img/section-4/projects.png" alt="pic">
+                        <div class="facts-item__content">
+                            <h6 class="facts-item__header">Индивидуальный проект</h6>
+                            <span class="fact">под заказчика</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="facts-items">
+                    <div class="facts-item">
+                        <img src="./img/section-4/user.png" alt="pic">
+                        <div class="facts-item__content">
+                            <h6 class="facts-item__header">Только квалифицированный</h6>
+                            <span class="fact">персонал</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="facts-items">
+                    <div class="facts-item">
+                        <img src="./img/section-4/calculation.png" alt="pic">
+                        <div class="facts-item__content">
+                            <h6 class="facts-item__header">Удобная для Вас система</h6>
+                            <span class="fact">расчетов</span>
+                        </div>
+                    </div>
+                    <div class="facts-item">
+                        <img src="./img/section-4/hand.png" alt="pic">
+                        <div class="facts-item__content">
+                            <h6 class="facts-item__header">Сдача точно в скрок.</h6>
+                            <span class="fact">Сроки зафиксированы в договоре</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="facts-items">
+                    <div class="facts-item">
+                        <img src="./img/section-4/discipline.png" alt="pic">
+                        <div class="facts-item__content">
+                            <h6 class="facts-item__header">Сметная дисциплина.</h6>
+                            <span class="fact">Регулярная отчетность</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="facts-items">
+                    <div class="facts-item">
+                        <img src="./img/section-4/materials.png" alt="pic">
+                        <div class="facts-item__content">
+                            <h6 class="facts-item__header">Качественные материалы по</h6>
+                            <span class="fact">себестоимости. Без дополтинельных<br>
+                                наценок</span>
+                        </div>
+                    </div>
+                    <div class="facts-item">
+                        <img src="./img/section-4/price.png" alt="pic">
+                        <div class="facts-item__content">
+                            <h6 class="facts-item__header">Цены ниже рыночных.</h6>
+                            <span class="fact">За счет отлаженных процессов
+                                и отсутствия посредников</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="facts-items">
+                    <div class="facts-item">
+                        <img src="./img/section-4/manufacturing.png" alt="pic">
+                        <div class="facts-item__content">
+                            <h6 class="facts-item__header">Своя производственная</h6>
+                            <span class="fact">база</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h6 class="facts-attention">
+                Строительство, ремонт для многодетных и нуждающихся в улучшении жилищных вопросов согласно Указа Президента Республики Беларусь
+                <strong>№ 13 и № 240</strong>
+            </h6>
+        </section>
+
+        <section class="individual">
+            <div class="individual-content">
+                <h2 class="section-header" style="margin-top: 2rem;">
+                    <span class="section-header__fill">Не знаете что выбрать</span> или хотите<br> индивидуальный проект?
+                </h2>
+                <h6 class="section-preheader" style="margin-top: 5rem;"><span class="section-header__fill">Ответьте на 5 вопросов</span> и наш дизайнер-консультант подберет для Вас дом, который идеально подходит под Ваши параметры и получите:</h6>
+
+                <div class="individual-list">
+                    <div class="individual-list__item">
+                        <img src="./img/section-5/check-list.png" alt="pic">
+                        <p>Проект дома<br>
+                            <strong>Бесплатно!</strong></p>
+                    </div>
+                    <div class="individual-list__item">
+                        <img src="./img/section-5/check-list.png" alt="pic">
+                        <p><strong>Скидка</strong> на строительные<br> материалы
+                        </p>
+                    </div>
+                    <div class="individual-list__item">
+                        <img src="./img/section-5/check-list.png" alt="pic">
+                        <p><strong>Чек-лист:</strong> Как сэкономить<br> при строительстве дома</p>
+                    </div>
+                </div>
+                <button class="individual-btn">Подобрать дом своей мечты</button>
+            </div>
+        </section>
+
+        <section class="objects">
+            <h2 class="section-header" style="margin-top: 2rem; margin-left: 2.5rem;">
+                Недавние<span class="section-header__fill">объекты</span>
+            </h2>
+            <div class="objects-list">
+                <div class="object">
+                    <img src="./img/section-6/house-1.png" alt="">
+                    <div class="object-hidden hidden">
+                        <p class="object-hidden__header">двух этажный ДОм на Рублевке</p>
+                        <button class="object-size">увеличить</button>
+                    </div>
+                </div>
+                <div class="object">
+                    <img src="./img/section-6/house-1.png" alt="">
+                    <div class="object-hidden hidden">
+                        <p class="object-hidden__header">двух этажный ДОм на Рублевке</p>
+                        <button class="object-size">увеличить</button>
+                    </div>
+                </div>
+                <div class="object">
+                    <img src="./img/section-6/house-1.png" alt="">
+                    <div class="object-hidden hidden">
+                        <p class="object-hidden__header">двух этажный ДОм на Рублевке</p>
+                        <button class="object-size">увеличить</button>
+                    </div>
+                </div>
+                <div class="object">
+                    <img src="./img/section-6/house-1.png" alt="">
+                    <div class="object-hidden hidden">
+                        <p class="object-hidden__header">двух этажный ДОм на Рублевке</p>
+                        <button class="object-size">увеличить</button>
+                    </div>
+                </div>
+                <div class="object">
+                    <img src="./img/section-6/house-1.png" alt="">
+                    <div class="object-hidden hidden">
+                        <p class="object-hidden__header">двух этажный ДОм на Рублевке</p>
+                        <button class="object-size">увеличить</button>
+                    </div>
+                </div>
+                <div class="object">
+                    <img src="./img/section-6/house-1.png" alt="">
+                    <div class="object-hidden hidden">
+                        <p class="object-hidden__header">двух этажный ДОм на Рублевке</p>
+                        <button class="object-size">увеличить</button>
+                    </div>
+                </div>
+                <div class="object">
+                    <img src="./img/section-6/house-1.png" alt="">
+                    <div class="object-hidden hidden">
+                        <p class="object-hidden__header">двух этажный ДОм на Рублевке</p>
+                        <button class="object-size">увеличить</button>
+                    </div>
+                </div>
+                <div class="object">
+                    <img src="./img/section-6/house-1.png" alt="">
+                    <div class="object-hidden hidden">
+                        <div class="hidden-content">
+                            <p class="object-hidden__header">двух этажный ДОм на Рублевке</p>
+                            <button class="object-size">увеличить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="object-btn" style="max-width: 30rem; margin-top: 3rem;">Скачать каталог проектов</button>
+            <div class="excursion-box">
+                <div class="excursion-box-side">
+                    <h3 class="excursion-box-header">
+                        Увидеть<br>
+                        <spann class="section-header__fill"> в живую</spann>
+                    </h3>
+                    <h4 class="excursion-box-title">
+                        готовые и строящиеся обьекты
+                    </h4>
+                    <div class="excursion-box-content">
+                        <div class="excursion-mark">
+                            Мы стремимся к полной прозрачности в работе
+                        </div>
+                        <div class="excursion-submark">
+                            По этому мы с удовольствием показываем каждый процесс строительства без прикрасс
+                        </div>
+                    </div>
+                </div>
+
+                <div class="excursion-box-side">
+                    <h3 class="excursion-box-title" style="margin-bottom: 3rem;">
+                        Благодаря экскурсии вы:
+                    </h3>
+                    <div class="excursion-list">
+                        <div class="excursion-list__item">
+                            <img src="./img/section-6/check.png" alt="pic">
+                            <p>Увидете все этапы строительства своими глазами</p>
+                        </div>
+                        <div class="excursion-list__item">
+                            <img src="./img/section-6/check.png" alt="pic">
+                            <p>Увидете все этапы строительства своими глазами</p>
+                        </div>
+                        <div class="excursion-list__item">
+                            <img src="./img/section-6/check.png" alt="pic">
+                            <p>Увидете все этапы строительства своими глазами</p>
+                        </div>
+                    </div>
+                    <form action="">
+                        <div class="excursion-fields">
+                            <input type="text" placeholder="Ваше имя">
+                            <input type="tel" placeholder="Ваш телефон">
+                        </div>
+                        <input class="excursion-submit" type="submit" value="Записаться на экскурсию">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="clients">
+            <h2 class="section-header" style="margin-top: 2rem; margin-left: 7rem;">
+                Работаем с каждым нашим клиентом<br>
+                <span class="section-header__fill">честно и прозрачно</span>
+            </h2>
+            <div class="clients-list">
+                <div class="clients-list__item">
+                    <img src="./img/section-7/pic-1.png" alt="pic">
+                    <h4 class="clients-title">Договор</h4>
+                    <div class="clients-description">Заключение договора четко фиксирует финансовые и временные показатели выполнения работ, прав и обязанностей сторон</div>
+                </div>
+                <div class="clients-list__item">
+                    <img src="./img/section-7/pic-2.png" alt="pic">
+                    <h4 class="clients-title">Смета</h4>
+                    <div class="clients-description">Профессиональная команда сметчиков готовит детальную смету с учетом всех накладных расходов. После этого смета на протяжени строительства не меняется</div>
+                </div>
+                <div class="clients-list__item">
+                    <img src="./img/section-7/pic-3.png" alt="pic">
+                    <h4 class="clients-title">Индивидуальный график оплаты</h4>
+                    <div class="clients-description">На этапе подписания договора составляеться план-график производства и финансирования работ. Данный документ является основным при проведении и контроле работ на обьекте</div>
+                </div>
+            </div>
+            <div class="clients-attention">
+                <img src="./img/section-7/icon.png" alt="pic">
+                <p>Предоставляем фото и видио отчеты по каждому этапу. Вы можете даже не появлятся на обьекте до его конечной стади Вам.</p>
+            </div>
+        </section>
+
+        <section class="responsibility">
+            <h2 class="section-header">
+                Мы берем на себя полную<br>
+                <span class="section-header__fill">материальную ответственность</span> и прописываем гарантии честно и прозрачно
+            </h2>
+            <div class="responsibility-list">
+                <div class="responsibility-item">
+                    <h4 class="responsibility-header">
+                        Соблюдаем сроки
+                    </h4>
+                    <p class="responsibility-content">Несем ответственность за соблюдение сроков выполнения работ. В случае срыва - компенсируем убытки за свой счет.</p>
+                </div>
+                <div class="responsibility-item">
+                    <h4 class="responsibility-header">
+                        Исправляем за свой счет
+                    </h4>
+                    <p class="responsibility-content">Утерю материалов, любой дефект и несоответствие характеристикам</p>
+                </div>
+                <div class="responsibility-item">
+                    <h4 class="responsibility-header">
+                        Поэтапная оплата каждого вида работ
+                    </h4>
+                    <p class="responsibility-content">Олпата каждого вида работ разбита на 8 частей</p>
+                </div>
+                <div class="responsibility-item">
+                    <h4 class="responsibility-header">
+                        Смета без скрытых платежей
+                    </h4>
+                    <p class="responsibility-content">Не поднимаем стоимость. Фиксируем стоимость работ в договоре.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h6 class="section-preheader">Более 30% клиентов приходят к нам по рекоммендации</h6>
+            <h2 class="section-header" style="math-style: 4rem;">
+                <span class="section-header__fill">Честные отзывы</span> наших клиентов
+            </h2>
+            <div class="testimonials-slider">
+                <div class="testimonials-slider-prev"></div>
+                <div class="testimonials-slider__item">
+                    <img src="./img/section-10/doc.png" alt="pic">
+                </div>
+                <div class="testimonials-slider__item">
+                    <img src="./img/section-10/doc.png" alt="pic">
+                </div>
+                <div class="testimonials-slider__item">
+                    <img src="./img/section-10/doc.png" alt="pic">
+                </div>
+                <div class="testimonials-slider__item">
+                    <img src="./img/section-10/doc.png" alt="pic">
+                </div>
+                <div class="testimonials-slider-next"></div>
+            </div>
+            <div class="testimonials-videos">
+                <div class="testimonials-slider-prev"></div>
+                <div class="testimonials-video">
+                    <img class="testimonials-play" src="./img/section-10/play.png" alt="play">
+                    <img class="testimonials-preview" src="./img/section-10/man-1.png" alt="pic">
+                </div>
+                <div class="testimonials-video">
+                    <img class="testimonials-play" src="./img/section-10/play.png" alt="play">
+                    <img class="testimonials-preview" src="./img/section-10/man-2.png" alt="pic">
+                </div>
+                <div class="testimonials-slider-next"></div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
