@@ -1,0 +1,84 @@
+.more {
+    width           : 100%;
+    display         : flex;
+    flex-direction  : column;
+    background-color: #25252d;
+    padding         : 15rem 15%;
+    background-image: url("../img/more/bg.png");
+    background-size : cover;
+}
+
+.more-box {
+    position        : relative;
+    width           : 100%;
+    border          : 7px solid #dab68e;
+    border-radius   : 1rem;
+    margin-top      : 6rem;
+    padding         : 5rem 40rem 0 0;
+    box-sizing      : border-box;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.more-box-title {
+    font-size  : 2.7rem;
+    font-weight: 500;
+}
+
+.more-box-list {
+    display     : flex;
+    flex-wrap   : wrap;
+    width       : 100%;
+    margin-top  : 3rem;
+    padding-left: 5rem;
+}
+
+.more-box-list__item {
+    display    : flex;
+    align-items: center;
+    flex-wrap  : wrap;
+}
+
+.more-box-list__item img {
+    padding-top: 1rem;
+}
+
+.more-box-list__item p {
+    max-width  : 18rem;
+    font-size  : 1.4rem;
+    font-weight: 300;
+}
+
+.more-box-form {
+    width                  : 100%;
+    background-color       : rgba(255, 255, 255, 0.05);
+    border-top-right-radius: 6rem;
+    padding                : 2.5rem 5rem;
+    padding-bottom         : 5rem;
+}
+
+.more-box-form input {
+    display   : inline-block;
+    margin-top: 3rem;
+}
+
+.more-box-form__title {
+    font-size  : 1.6rem;
+    font-weight: 500;
+}
+
+.form-title-attention {
+    display       : inline-block;
+    margin-left   : 5px;
+    text-transform: uppercase;
+    font-weight   : 600;
+    color         : #dab68e;
+    border-radius : 10px;
+    border        : 3px dashed #dab68e;
+    padding       : 7px;
+}
+
+.more-director {
+    position: absolute;
+    bottom  : -1.5rem;
+    right   : 0;
+}
