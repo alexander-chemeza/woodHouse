@@ -108,3 +108,110 @@ input[type='radio']:checked:after {
     font-size  : 1.6rem;
     font-weight: 400;
 }
+
+.contacts {
+    width: 100%;
+    background-color: black;
+    background: url("../img/contacts/bg.png");
+    background-size: cover;
+    display: flex;
+    background-position: 90%;
+}
+
+.contacts-wrapper {
+    background-color: rgba(0, 0, 0, 0.95);
+    width: 50%;
+    padding-bottom: 15rem;
+}
+
+.contacts-mid {
+    width: 30%;
+}
+
+.contacts-end {
+    background-color: rgba(0, 0, 0, 0.95);
+    width: 20%;
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25%;
+    margin-top: 3rem;
+}
+
+.contacts-list__item {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-list__item p {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.contacts-social-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 6rem;
+    margin-top: 3rem;
+    padding: 4rem;
+    border-radius: 1rem;
+    border: 3px dashed #dab68e;
+}
+
+.contacts-social-box__title {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.social-box__btns {
+    border-bottom: 2px solid rgba(240, 213, 185, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-box__btns a img {
+    padding-top: 2rem;
+}
+
+.else {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.social-call-btn {
+    max-height: 6rem;
+    display: block;
+    /* margin: 0 auto; */
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: block;
+    padding: 1.25rem 5rem;
+    border: none;
+    border-radius: 3rem;
+    background-color: #d8bb9c;
+}
+
+.social-box__keys {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.shortcut {
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.keys__description {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-left: 3rem;
+}

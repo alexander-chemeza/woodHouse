@@ -5,6 +5,7 @@
     background-position: 100%;
     background-size: cover;
     background-image: url("../img/section-11/bg.png");
+    background-attachment: fixed;
 }
 
 .questions-list {
