@@ -12,6 +12,8 @@
 @import url("./questions.css");
 @import url("./more.css");
 @import url("./contacts.css");
+@import url("./footer.css");
+@import url("./stages.css");
 
 html {
     font-size: 10px;
@@ -114,118 +116,3 @@ input[type='radio']:checked:after {
     font-weight: 400;
 }
 
-.footer {
-    width: 100%;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.footer-r-1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 2% 12%;
-    background-color: #25252d;
-
-}
-
-.footer-r-1 .logo img {
-    padding-top: 10%;
-}
-
-.mail {
-    display: flex;
-    align-items: center;
-}
-
-.mail a {
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #fff;
-    transition: all .2s;
-}
-
-.mail a:hover {
-    color: #dab68e;
-}
-
-.mail img {
-    padding-top: 1.5rem;
-    width: 5rem;
-    object-fit: cover;
-    object-position: center;
-}
-
-.footer-social {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-social-row {
-    display: flex;
-}
-
-.footer-social-row a img {
-    max-width: 3.75rem;
-    object-fit: cover;
-    object-position: center;
-}
-
-.footer-social-title {
-    font-size: 1.4rem;
-    font-weight: 400;
-}
-
-.footer-r-2 {
-    background-color: #27252c;
-    font-size: 1.2rem;
-    display: flex;
-    align-items: center;
-    padding: 1% 12%;
-    justify-content: space-between;
-}
-
-.account {
-    display: flex;
-    flex-direction: column;
-}
-
-
-.footer-menu {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-}
-
-.footer-menu__item {
-    margin: 0 2rem;
-    color: #fff;
-    transition: all .2s;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.footer-menu__item:hover {
-    color: #dab68e;
-}
-
-.unp, .bank, .footer-menu__item, .company-name, .policy {
-    font-size: 1.4rem;
-}
-
-.company {
-    margin-right: 15rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.policy {
-    color: #fff;
-}
-
-.policy:hover {
-    color: #dab68e;
-}
