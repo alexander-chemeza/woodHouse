@@ -10,6 +10,8 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .navbar-brand-img {
@@ -73,4 +75,44 @@
 .caller-box-btn:hover {
     background: #efd2b4;
     color: rgb(44, 44, 44);
+}
+
+@media (max-width: 1366px) {
+    .header {
+        padding: 0 8%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .header {
+        padding: 0 6%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+        padding: 0 2%;
+        flex-wrap: nowrap;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar-brand {
+        margin: 0;
+    }
+
+    .header-phones {
+        margin-right: 2rem;
+    }
+
+    .phone-number {
+        font-size: 1.4rem;
+    }
+
+    .caller-box-btn {
+        font-size: 1.4rem;
+        padding: 1.5rem;
+    }
 }
