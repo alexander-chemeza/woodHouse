@@ -6,6 +6,7 @@
     background-color: #212026;
     background-image: url("../img/section-8/bg.png");
     background-size: cover;
+    background-position-x: center;
     background-position-y: 100%;
 }
 
@@ -46,6 +47,7 @@
     margin-top: 2rem;
     font-size: 1.6rem;
     font-weight: 700;
+    text-align: center;
 }
 
 .stages-list-item-content {
@@ -114,6 +116,7 @@
 }
 
 .stage-box-time {
+    justify-content: center;
     display: flex;
     margin-top: 2.5rem;
 }
@@ -154,4 +157,61 @@
     font-size: 1.8rem;
     font-weight: 200;
     color: #d8bb9c;
+}
+
+@media(max-width: 1600px) {
+    .create-order-btn {
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 1440px) {
+    .stages-list-item img {
+        top: -50%;
+    }
+
+    .stages-list {
+        margin-top: 15rem;
+    }
+
+    .stages-box-header {
+        text-align: center;
+    }
+
+    .stages-box {
+        flex-wrap: wrap;
+    }
+
+    .stages-box-half {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .stages-box-title {
+        text-align: center;
+    }
+
+    .stages-box-half:first-of-type {
+        padding: 0;
+    }
+
+    .stages-box-half:last-of-type {
+        padding: 0;
+    }
+
+    .create-order-btn {
+        max-width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .stages-box-half:first-of-type {
+        border-right: none;
+        border-bottom: 2px solid #d8bb9c;
+    }
+}
+
+@media (max-width: 1024px) {
+    .stages-list-item img {
+        top: -30%;
+    }
 }
