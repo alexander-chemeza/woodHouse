@@ -43,12 +43,13 @@
     font-size: 1.8rem;
     font-weight: 500;
     margin-top: 3rem;
+    text-align: center;
 }
 
 .clients-description {
     font-size: 1.4rem;
     font-weight: 300;
-    text-align-last: center;
+    text-align: center;
     margin-top: 1rem;
 }
 
@@ -72,4 +73,23 @@
 
 .clients-attention img {
     padding-top: 2rem;
+}
+
+@media (max-width: 1366px) {
+    .clients-list__item {
+        max-width: 34.5rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    .clients-list__item {
+        max-width: 32.5rem;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .clients-list__item {
+        max-width: 25rem;
+    }
 }
