@@ -7,6 +7,7 @@
     background-image: url("../img/section-9/bg.png");
     background-size: cover;
     background-position-y: 90%;
+    background-position-x: center;
 }
 
 .responsibility-list {
@@ -33,4 +34,34 @@
 .responsibility-content {
     font-size: 1.4rem;
     font-weight: 400;
+}
+
+@media (max-width: 1600px) {
+    .responsibility {
+        padding-right: 60rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    .responsibility {
+        padding-right: 50rem;
+    }
+}
+
+@media (max-width: 1366px) {
+    .responsibility {
+        padding-right: 30rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    .responsibility {
+        padding-right: 20rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .responsibility {
+        padding-right: 10rem;
+    }
 }
