@@ -7,6 +7,7 @@
     background-color: black;
     background-image: url("../img/section-5/bg.png");
     background-size: cover;
+    background-position-x: center;
     background-position-y: 70%;
 }
 
@@ -51,4 +52,11 @@
     border: none;
     border-radius: 2.5rem;
     background-color: #d8bb9c;
+}
+
+
+@media(max-width: 1024px) {
+    .individual-content {
+        padding-right: 40%;
+    }
 }
