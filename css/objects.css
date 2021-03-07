@@ -197,3 +197,13 @@
     border-radius: 2.5rem;
     background-color: #d8bb9c;
 }
+
+@media(max-width: 1280px) {
+    .excursion-box {
+        flex-wrap: wrap;
+
+    }
+    .excursion-box-side {
+        width: 100%;
+    }
+}
