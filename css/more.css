@@ -3,7 +3,7 @@
     display         : flex;
     flex-direction  : column;
     background-color: #25252d;
-    padding         : 15rem 15%;
+    padding         : 15rem 10%;
     background-image: url("../img/more/bg.png");
     background-size : cover;
 }
@@ -14,7 +14,7 @@
     border          : 7px solid #dab68e;
     border-radius   : 1rem;
     margin-top      : 6rem;
-    padding         : 5rem 40rem 0 0;
+    padding         : 5rem 65rem 0 0;
     box-sizing      : border-box;
     background-color: rgba(0, 0, 0, 0.15);
 }
@@ -81,4 +81,39 @@
     position: absolute;
     bottom  : -1.5rem;
     right   : 0;
+}
+
+@media(max-width: 1600px) {
+    .more-box {
+        padding-right: 35rem;
+    }
+
+    .more-box-form input[type='submit'] {
+        padding: 1.25rem 2rem;
+    }
+}
+
+@media(max-width: 1280px) {
+    .more-box-form input[type='tel'] {
+        width: 50%;
+    }
+
+    .more-box-form input[type='submit'] {
+        padding: 1.25rem 2rem;
+    }
+
+    .more-box {
+        padding-right: 32rem;
+    }
+}
+
+@media(max-width: 1024px) {
+    .more-box-form input[type='tel'] {
+        width: 100%;
+    }
+
+    .more-box-form input[type='submit'] {
+        width: 100%;
+        margin-top: 2rem !important;
+    }
 }

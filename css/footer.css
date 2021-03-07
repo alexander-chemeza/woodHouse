@@ -6,11 +6,12 @@
 
 .footer-r-1 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
     margin: 0;
-    padding: 2% 12%;
+    padding: 2% 10%;
     background-color: #25252d;
 
 }
@@ -112,4 +113,40 @@
 
 .policy:hover {
     color: #dab68e;
+}
+
+.footer-phones {
+    margin-right: 2rem;
+}
+
+.footer-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .account {
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer-menu {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .company {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-r-1 {
+        justify-content: center;
+    }
 }
