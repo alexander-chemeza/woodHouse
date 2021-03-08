@@ -116,3 +116,56 @@
         padding: 1.5rem;
     }
 }
+
+@media (max-width: 1000px) {
+    .header {
+        flex-wrap: wrap;
+    }
+
+    .navbar {
+        width: 100%;
+        padding: 0 5%;
+        z-index: 9;
+    }
+
+    .intro-pluses {
+        flex-direction: column !important;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 767px) {
+    /* .header {
+        background-color: rgb(32, 32, 32);
+    } */
+
+    li.nav-item {
+        padding-left: 1.5rem;
+    }
+
+    li.nav-item:last-of-type {
+        margin-bottom: 2rem;
+    }
+
+    .navbar {
+        border-bottom: 2px solid #eed0b2;
+    }
+
+    .phone-number {
+        line-height: 1.5;
+    }
+
+    .header-box {
+        width: 100%;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .header-phones {
+        margin-bottom: 2rem;
+    }
+
+    .caller-box-btn {
+        padding: 0.75rem 1rem;
+    }
+}
