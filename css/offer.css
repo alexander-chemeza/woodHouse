@@ -232,6 +232,10 @@
 }
 
 @media (max-width: 767px) {
+    .offer {
+        padding: 10%;
+    }
+
     .offer__main-content {
         max-width: 100%;
     }

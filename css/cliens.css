@@ -93,3 +93,25 @@
         max-width: 25rem;
     }
 }
+
+@media (max-width: 768px) {
+    .clients{
+        padding: 10%;
+    }
+
+    .clients .section-header {
+        font-size: 3rem;
+    }
+
+    .clients-list {
+        margin-top: 3rem;
+    }
+
+    .clients-list__item {
+        margin-bottom: 2rem;
+    }
+
+    .clients-attention {
+        margin-top: 3rem;
+    }
+}

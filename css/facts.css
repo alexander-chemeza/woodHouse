@@ -74,6 +74,10 @@
 }
 
 @media (max-width: 768px) {
+    .facts {
+        padding: 10%;
+    }
+    
     .facts-list {
         align-items: flex-start;
     }
