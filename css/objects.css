@@ -243,7 +243,7 @@
     .excursion-fields input[type='tel'] {
         width: 100% !important;
         margin: 0 !important;
-        margin-bottom: 1rem;
+        margin-bottom: 1rem !important;
     }
 
     .excursion-submit {
