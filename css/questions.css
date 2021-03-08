@@ -75,3 +75,26 @@ details[open] > summary {
     margin-bottom: 0.5rem;
 }
 
+@media (max-width: 768px) {
+    .questions {
+        padding: 10%;
+    }
+
+    .questions .section-header {
+        font-size: 3rem;
+    }
+
+    .questions-list {
+        margin-top: 3rem;
+    }
+
+    .questions-list__item {
+        max-width: 100%;
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .questions-list__item summary {
+        font-size: 1.6rem;
+    }
+}
