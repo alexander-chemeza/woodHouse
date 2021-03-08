@@ -140,3 +140,34 @@
         margin: 2rem 0;
     }
 }
+
+@media (max-width: 768px) {
+    .contacts-wrapper {
+        width: 100%;
+    }
+
+    .contacts-mid {
+        display: none;
+    }
+
+    .contacts-end {
+        display: none;
+    }
+
+    .modile-card {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    .contacts-wrapper .section-header {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem im !important;
+    }
+
+    .contacts-social-box {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
