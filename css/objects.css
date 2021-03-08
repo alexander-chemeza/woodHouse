@@ -207,3 +207,47 @@
         width: 100%;
     }
 }
+
+@media (max-width: 768px) {
+    .objects {
+        padding: 2%;
+    }
+
+    .objects-list {
+        margin-top: 2rem;
+    }
+
+    .excursion-box {
+        padding: 1rem;
+        margin-bottom: 4rem;
+    }
+
+    .excursion-box-header {
+        font-size: 3rem;
+    }
+
+    .excursion-box-header .section-header__fill {
+        font-size: 3rem;
+    }
+
+    .excursion-box-content {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .excursion-fields {
+        flex-wrap: wrap;
+    }
+
+    .excursion-fields input[type='text'],
+    .excursion-fields input[type='tel'] {
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+
+    .excursion-submit {
+        margin-top: 2rem !important;
+        margin-bottom: 1rem !important;
+        padding: 1rem !important;
+    }
+}
