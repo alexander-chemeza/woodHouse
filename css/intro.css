@@ -123,3 +123,48 @@
         margin-top: 3rem;
     }
 }
+
+@media(max-width: 767px) {
+    .intro-header {
+        padding-top: 25rem;
+    }
+
+    .intro-header__subheader {
+        font-size: 2.25rem;
+    }
+
+    .intro-header__main {
+        font-size: 4rem;
+    }
+
+    .calculation-btn {
+        width: 100%;
+    }
+
+    .benefits__item {
+        width: 100%;
+    }
+
+    .benefits__item-img {
+        left: 85%;
+    }
+}
+
+@media (max-width: 560px) {
+    .benefits__item-img {
+        left: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .benefits__item-img {
+        left: 82%;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .benefits__item-img {
+        left: 75%;
+    }
+}
