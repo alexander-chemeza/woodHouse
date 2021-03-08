@@ -60,3 +60,22 @@
         padding-right: 40%;
     }
 }
+
+@media(max-width: 768px) {
+    .individual {
+        padding: 10%;
+        background-position-x: left;
+    }
+
+    .individual .section-header {
+        font-size: 3rem;
+    }
+
+    .individual-content {
+        padding-right: 0;
+    }
+
+    .individual-btn {
+        padding: 1.25rem 2rem;
+    }
+}
