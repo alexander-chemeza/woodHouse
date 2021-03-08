@@ -171,13 +171,13 @@
         padding-left: 32%;
     }
 
-    .caller-box {
+    .footer-group .caller-box {
         margin-top: 1rem;
         margin: 0 !important;
         width: 100%;
     }
 
-    .caller-box-btn {
+    .footer-group .caller-box .caller-box-btn {
         width: 100%;
     }
 }

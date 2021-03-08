@@ -159,6 +159,7 @@
         width: 100%;
         justify-content: center;
         margin-top: 2rem;
+        flex-wrap: wrap;
     }
 
     .header-phones {
