@@ -72,3 +72,25 @@
     font-size: 1.6rem;
     font-weight: 400;
 }
+
+@media (max-width: 768px) {
+    .facts-list {
+        align-items: flex-start;
+    }
+    
+    .facts-item {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .facts-items {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .facts .section-header {
+        font-size: 3rem;
+    }
+}
