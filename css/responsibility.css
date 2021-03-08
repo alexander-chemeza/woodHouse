@@ -65,3 +65,32 @@
         padding-right: 10rem;
     }
 }
+
+@media (max-width: 900px) {
+    .responsibility {
+        background-position-x: left;
+    }
+}
+
+@media (max-width: 768px) {
+    .responsibility {
+        padding: 10%;
+        background-position-x: left;
+    }
+
+    .responsibility .section-header {
+        font-size: 3rem;
+    }
+
+    .responsibility-list {
+        margin-top: 3rem;
+        width: 100%;
+    }
+
+    .responsibility-item {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+}
