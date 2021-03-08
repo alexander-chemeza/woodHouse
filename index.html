@@ -8,9 +8,15 @@
     <title>Каркасные дома</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -181,97 +187,191 @@
                 Выберите <span class="section-header__fill">Готовый проект дома</span><br>или закажите индивидуальный
                 проект
             </h2>
-            <div class="project-list">
-                <div class="prev-item"></div>
-                <div class="project-item">
-                    <div class="project-item-slider">
-                        <div class="project-item-slider-prev"></div>
-                        <img src="./img/section-3/house-1.png" alt="">
-                        <div class="project-item-slider-next"></div>
+            <div id="project-slider" class="project-list swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="project-item swiper-slide">
+                        <div class="project-item-slider">
+                            <div class="project-item-slider-prev"></div>
+                            <img src="./img/section-3/house-1.png" alt="">
+                            <div class="project-item-slider-next"></div>
+                        </div>
+                        <div class="project-small-img">
+                            <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                            <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                        </div>
+                        <h6 class="project-item-header">
+                            Проект каркасного дома Д1
+                        </h6>
+                        <div class="project-size">
+                            <img src="./img/section-3/icon.png" alt="ico">
+                            <span class="size">104 м<sup><small>2</small></sup></span>
+                            <img src="./img/section-3/icon.png" alt="ico">
+                            <span class="size">104 м<sup><small>2</small></sup></span>
+                        </div>
+                        <a href="#" class="project-info">Комплектация дома</a>
+                        <button class="project-btn">Получить консультацию</button>
                     </div>
-                    <div class="project-small-img">
-                        <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
-                        <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                    <div class="project-item swiper-slide">
+                        <div class="project-item-slider">
+                            <div class="project-item-slider-prev"></div>
+                            <img src="./img/section-3/house-1.png" alt="">
+                            <div class="project-item-slider-next"></div>
+                        </div>
+                        <div class="project-small-img">
+                            <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                            <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                        </div>
+                        <h6 class="project-item-header">
+                            Проект каркасного дома Д1
+                        </h6>
+                        <div class="project-size">
+                            <img src="./img/section-3/icon.png" alt="ico">
+                            <span class="size">104 м<sup><small>2</small></sup></span>
+                            <img src="./img/section-3/icon.png" alt="ico">
+                            <span class="size">104 м<sup><small>2</small></sup></span>
+                        </div>
+                        <a href="#" class="project-info">Комплектация дома</a>
+                        <button class="project-btn">Получить консультацию</button>
                     </div>
-                    <h6 class="project-item-header">
-                        Проект каркасного дома Д1
-                    </h6>
-                    <div class="project-size">
-                        <img src="./img/section-3/icon.png" alt="ico">
-                        <span class="size">104 м<sup><small>2</small></sup></span>
-                        <img src="./img/section-3/icon.png" alt="ico">
-                        <span class="size">104 м<sup><small>2</small></sup></span>
+                    <div class="project-item swiper-slide">
+                        <div class="project-item-slider">
+                            <div class="project-item-slider-prev"></div>
+                            <img src="./img/section-3/house-1.png" alt="">
+                            <div class="project-item-slider-next"></div>
+                        </div>
+                        <div class="project-small-img">
+                            <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                            <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                        </div>
+                        <h6 class="project-item-header">
+                            Проект каркасного дома Д1
+                        </h6>
+                        <div class="project-size">
+                            <img src="./img/section-3/icon.png" alt="ico">
+                            <span class="size">104 м<sup><small>2</small></sup></span>
+                            <img src="./img/section-3/icon.png" alt="ico">
+                            <span class="size">104 м<sup><small>2</small></sup></span>
+                        </div>
+                        <a href="#" class="project-info">Комплектация дома</a>
+                        <button class="project-btn">Получить консультацию</button>
                     </div>
-                    <a href="#" class="project-info">Комплектация дома</a>
-                    <button class="project-btn">Получить консультацию</button>
+                    <div class="project-item swiper-slide">
+                        <div class="project-item-slider">
+                            <div class="project-item-slider-prev"></div>
+                            <img src="./img/section-3/house-1.png" alt="">
+                            <div class="project-item-slider-next"></div>
+                        </div>
+                        <div class="project-small-img">
+                            <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                            <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                        </div>
+                        <h6 class="project-item-header">
+                            Проект каркасного дома Д1
+                        </h6>
+                        <div class="project-size">
+                            <img src="./img/section-3/icon.png" alt="ico">
+                            <span class="size">104 м<sup><small>2</small></sup></span>
+                            <img src="./img/section-3/icon.png" alt="ico">
+                            <span class="size">104 м<sup><small>2</small></sup></span>
+                        </div>
+                        <a href="#" class="project-info">Комплектация дома</a>
+                        <button class="project-btn">Получить консультацию</button>
+                    </div>
+                    <div class="project-item swiper-slide">
+                        <div class="project-item-slider">
+                            <div class="project-item-slider-prev"></div>
+                            <img src="./img/section-3/house-1.png" alt="">
+                            <div class="project-item-slider-next"></div>
+                        </div>
+                        <div class="project-small-img">
+                            <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                            <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                        </div>
+                        <h6 class="project-item-header">
+                            Проект каркасного дома Д1
+                        </h6>
+                        <div class="project-size">
+                            <img src="./img/section-3/icon.png" alt="ico">
+                            <span class="size">104 м<sup><small>2</small></sup></span>
+                            <img src="./img/section-3/icon.png" alt="ico">
+                            <span class="size">104 м<sup><small>2</small></sup></span>
+                        </div>
+                        <a href="#" class="project-info">Комплектация дома</a>
+                        <button class="project-btn">Получить консультацию</button>
+                    </div>
+                    <div class="project-item swiper-slide">
+                        <div class="project-item-slider">
+                            <div class="project-item-slider-prev"></div>
+                            <img src="./img/section-3/house-1.png" alt="">
+                            <div class="project-item-slider-next"></div>
+                        </div>
+                        <div class="project-small-img">
+                            <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                            <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                        </div>
+                        <h6 class="project-item-header">
+                            Проект каркасного дома Д1
+                        </h6>
+                        <div class="project-size">
+                            <img src="./img/section-3/icon.png" alt="ico">
+                            <span class="size">104 м<sup><small>2</small></sup></span>
+                            <img src="./img/section-3/icon.png" alt="ico">
+                            <span class="size">104 м<sup><small>2</small></sup></span>
+                        </div>
+                        <a href="#" class="project-info">Комплектация дома</a>
+                        <button class="project-btn">Получить консультацию</button>
+                    </div>
+                    <div class="project-item swiper-slide">
+                        <div class="project-item-slider">
+                            <div class="project-item-slider-prev"></div>
+                            <img src="./img/section-3/house-1.png" alt="">
+                            <div class="project-item-slider-next"></div>
+                        </div>
+                        <div class="project-small-img">
+                            <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                            <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                        </div>
+                        <h6 class="project-item-header">
+                            Проект каркасного дома Д1
+                        </h6>
+                        <div class="project-size">
+                            <img src="./img/section-3/icon.png" alt="ico">
+                            <span class="size">104 м<sup><small>2</small></sup></span>
+                            <img src="./img/section-3/icon.png" alt="ico">
+                            <span class="size">104 м<sup><small>2</small></sup></span>
+                        </div>
+                        <a href="#" class="project-info">Комплектация дома</a>
+                        <button class="project-btn">Получить консультацию</button>
+                    </div>
+                    <div class="project-item swiper-slide">
+                        <div class="project-item-slider">
+                            <div class="project-item-slider-prev"></div>
+                            <img src="./img/section-3/house-1.png" alt="">
+                            <div class="project-item-slider-next"></div>
+                        </div>
+                        <div class="project-small-img">
+                            <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                            <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
+                        </div>
+                        <h6 class="project-item-header">
+                            Проект каркасного дома Д1
+                        </h6>
+                        <div class="project-size">
+                            <img src="./img/section-3/icon.png" alt="ico">
+                            <span class="size">104 м<sup><small>2</small></sup></span>
+                            <img src="./img/section-3/icon.png" alt="ico">
+                            <span class="size">104 м<sup><small>2</small></sup></span>
+                        </div>
+                        <a href="#" class="project-info">Комплектация дома</a>
+                        <button class="project-btn">Получить консультацию</button>
+                    </div>
                 </div>
-                <div class="project-item">
-                    <div class="project-item-slider">
-                        <div class="project-item-slider-prev"></div>
-                        <img src="./img/section-3/house-1.png" alt="">
-                        <div class="project-item-slider-next"></div>
-                    </div>
-                    <div class="project-small-img">
-                        <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
-                        <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
-                    </div>
-                    <h6 class="project-item-header">
-                        Проект каркасного дома Д1
-                    </h6>
-                    <div class="project-size">
-                        <img src="./img/section-3/icon.png" alt="ico">
-                        <span class="size">104 м<sup><small>2</small></sup></span>
-                        <img src="./img/section-3/icon.png" alt="ico">
-                        <span class="size">104 м<sup><small>2</small></sup></span>
-                    </div>
-                    <a href="#" class="project-info">Комплектация дома</a>
-                    <button class="project-btn">Получить консультацию</button>
-                </div>
-                <div class="project-item">
-                    <div class="project-item-slider">
-                        <div class="project-item-slider-prev"></div>
-                        <img src="./img/section-3/house-1.png" alt="">
-                        <div class="project-item-slider-next"></div>
-                    </div>
-                    <div class="project-small-img">
-                        <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
-                        <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
-                    </div>
-                    <h6 class="project-item-header">
-                        Проект каркасного дома Д1
-                    </h6>
-                    <div class="project-size">
-                        <img src="./img/section-3/icon.png" alt="ico">
-                        <span class="size">104 м<sup><small>2</small></sup></span>
-                        <img src="./img/section-3/icon.png" alt="ico">
-                        <span class="size">104 м<sup><small>2</small></sup></span>
-                    </div>
-                    <a href="#" class="project-info">Комплектация дома</a>
-                    <button class="project-btn">Получить консультацию</button>
-                </div>
-                <div class="project-item">
-                    <div class="project-item-slider">
-                        <div class="project-item-slider-prev"></div>
-                        <img src="./img/section-3/house-1.png" alt="">
-                        <div class="project-item-slider-next"></div>
-                    </div>
-                    <div class="project-small-img">
-                        <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
-                        <img class="slider-small" src="./img/section-3/house-1.png" alt="pic">
-                    </div>
-                    <h6 class="project-item-header">
-                        Проект каркасного дома Д1
-                    </h6>
-                    <div class="project-size">
-                        <img src="./img/section-3/icon.png" alt="ico">
-                        <span class="size">104 м<sup><small>2</small></sup></span>
-                        <img src="./img/section-3/icon.png" alt="ico">
-                        <span class="size">104 м<sup><small>2</small></sup></span>
-                    </div>
-                    <a href="#" class="project-info">Комплектация дома</a>
-                    <button class="project-btn">Получить консультацию</button>
-                </div>
-                <div class="next-item"></div>
+            </div>
+            <div class="swiper-button-prev prj-prev-item">
+                <img src="./img/section-3/prev-slide.png" alt="">
+            </div>
+            <div class="swiper-button-next prj-next-item">
+                <img src="./img/section-3/next-slide.png" alt="">
             </div>
             <button class="project-btn" style="margin-top: 4rem;">Смотреть еще</button>
         </section>
