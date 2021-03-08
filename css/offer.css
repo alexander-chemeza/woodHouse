@@ -230,3 +230,38 @@
         padding: 1.25rem;
     }
 }
+
+@media (max-width: 767px) {
+    .offer__main-content {
+        max-width: 100%;
+    }
+
+    .offer__main-content .section-header {
+        font-size: 3rem;
+    }
+
+    .offer-form {
+        width: 100%;
+    }
+
+    .offer-form__content {
+        width: 100%;
+    }
+
+    .offer-cards__item {
+        width: 100%;
+    }
+    
+    .offer-cards__item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .offer-user {
+        flex-wrap: nowrap;
+    }
+
+    .offer-next-btn {
+        margin: 3rem auto !important;
+    }
+}
