@@ -124,7 +124,7 @@
     }
 }
 
-@media(max-width: 767px) {
+@media(max-width: 768px) {
     .intro-header {
         padding-top: 25rem;
     }
@@ -139,6 +139,10 @@
 
     .calculation-btn {
         width: 100%;
+    }
+
+    .benefits {
+        justify-content: space-around;
     }
 
     .benefits__item {
