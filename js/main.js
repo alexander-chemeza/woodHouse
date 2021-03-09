@@ -1,3 +1,6 @@
+// Array for multiple sliders
+const swiperArray = []
+// Single sliders
 const prjSwiper = new Swiper('#project-slider', {
     slidesPerView: 4,
     slidesPerGroup: 1,
@@ -5,14 +8,14 @@ const prjSwiper = new Swiper('#project-slider', {
     navigation: {
         nextEl: '.prj-next-item',
         prevEl: '.prj-prev-item',
-      },
+    },
     breakpoints: {
         320: {
             slidesPerView: 1
-        }, 
+        },
         360: {
             slidesPerView: 1
-        }, 
+        },
         480: {
             slidesPerView: 1
         },
@@ -56,14 +59,14 @@ const testimonialsSwiper = new Swiper('#testimonials-slider', {
     navigation: {
         nextEl: '.testimonials-slider-next',
         prevEl: '.testimonials-slider-prev',
-      },
+    },
     breakpoints: {
         320: {
             slidesPerView: 1
-        }, 
+        },
         360: {
             slidesPerView: 1
-        }, 
+        },
         480: {
             slidesPerView: 1
         },
@@ -107,14 +110,14 @@ const testimonialsVideos = new Swiper('#testimonials-videos', {
     navigation: {
         nextEl: '.video-prev',
         prevEl: '.video-next',
-      },
+    },
     breakpoints: {
         320: {
             slidesPerView: 1
-        }, 
+        },
         360: {
             slidesPerView: 1
-        }, 
+        },
         480: {
             slidesPerView: 1
         },
@@ -148,5 +151,37 @@ const testimonialsVideos = new Swiper('#testimonials-videos', {
         1920: {
             slidesPerView: 2
         }
+    }
+})
+
+window.addEventListener('DOMContentLoaded', e => {
+    // Check number of inner sliders and its controls
+    const projectItemSliders = document.getElementsByClassName('project-item-slider')
+    const projectItemSlidersPrev = document.getElementsByClassName('project-item-slider-prev')
+    const projectItemSlidersNext = document.getElementsByClassName('project-item-slider-next')
+
+    // Add divided class names for controls and slider boxes
+    for (let i = 0; i < projectItemSlidersPrev.length; i++) {
+        projectItemSlidersPrev[i].classList.add(`inner-slider-prev-${i}`)
+    }
+
+    for (let i = 0; i < projectItemSlidersNext.length; i++) {
+        projectItemSlidersNext[i].classList.add(`inner-slider-next-${i}`)
+    }
+
+    // Our slider magic
+    for (let i = 0; i < projectItemSliders.length; i++) {
+        // Firstly, add divided name of slider
+        projectItemSliders[i].classList.add(`inner-slider-${i}`)
+        // Then push it in array
+        swiperArray.push(new Swiper(`.inner-slider-${i}`, {
+            loop: true,
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            navigation: {
+                nextEl: `.inner-slider-next-${i}`,
+                prevEl: `.inner-slider-prev-${i}`
+            }
+        }))
     }
 })

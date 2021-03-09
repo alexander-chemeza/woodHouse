@@ -71,6 +71,7 @@
     position: absolute;
     top: 50%;
     left: 0;
+    z-index: 1000;
     transform: translate(0, -50%);
     width: 2.6rem;
     height: 5.6rem;
@@ -81,6 +82,7 @@
     position: absolute;
     top: 50%;
     right: 0;
+    z-index: 1000;
     transform: translate(0, -50%);
     width: 2.6rem;
     height: 5.6rem;
