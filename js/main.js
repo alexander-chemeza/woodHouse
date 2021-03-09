@@ -7,6 +7,9 @@ const prjSwiper = new Swiper('#project-slider', {
         prevEl: '.prj-prev-item',
       },
     breakpoints: {
+        320: {
+            slidesPerView: 1
+        }, 
         360: {
             slidesPerView: 1
         }, 

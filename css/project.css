@@ -258,6 +258,18 @@
     }
 }
 
+@media (max-width: 375px) {
+    .prj-prev-item {
+        top: 81%;
+        left: 40%;
+    }
+
+    .prj-next-item {
+        top: 81%;
+        right: 40%;
+    }
+}
+
 @media (max-width: 360px) {
     .prj-prev-item {
         top: 81.5%;
@@ -266,6 +278,22 @@
 
     .prj-next-item {
         top: 81.5%;
+        right: 40%;
+    }
+}
+
+@media (max-width: 320px) {
+    .project .section-header {
+        font-size: 2.5rem;
+    }
+
+    .prj-prev-item {
+        top: 80%;
+        left: 40%;
+    }
+
+    .prj-next-item {
+        top: 80%;
         right: 40%;
     }
 }
