@@ -58,6 +58,9 @@ const testimonialsSwiper = new Swiper('#testimonials-slider', {
         prevEl: '.testimonials-slider-prev',
       },
     breakpoints: {
+        320: {
+            slidesPerView: 1
+        }, 
         360: {
             slidesPerView: 1
         }, 
@@ -106,6 +109,9 @@ const testimonialsVideos = new Swiper('#testimonials-videos', {
         prevEl: '.video-next',
       },
     breakpoints: {
+        320: {
+            slidesPerView: 1
+        }, 
         360: {
             slidesPerView: 1
         }, 
