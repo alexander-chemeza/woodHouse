@@ -101,6 +101,7 @@
 
     .clients .section-header {
         font-size: 3rem;
+        margin: 0 !important;
     }
 
     .clients-list {
