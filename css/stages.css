@@ -373,6 +373,20 @@
     }
 }
 
+@media (max-width: 375px) {
+    .stage-box-time-label {
+        font-size: 1.2rem;
+    }
+
+    .box-item-time span {
+        font-size: 1.4rem;
+    }
+
+    .stages-box-header {
+        font-size: 2rem;
+    }
+}
+
 @media (max-width: 360px) {
     .stages-list-item img {
         top: -40%;
@@ -396,3 +410,4 @@
         padding-left: 7px;
     }
 }
+
