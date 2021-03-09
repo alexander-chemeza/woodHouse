@@ -134,7 +134,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     /* .header {
         background-color: rgb(32, 32, 32);
     } */
@@ -166,7 +166,8 @@
         margin-bottom: 2rem;
     }
 
-    .caller-box-btn {
+    .header-box .caller-box-btn {
         padding: 0.75rem 1rem;
+        margin-bottom: 2rem;
     }
 }
