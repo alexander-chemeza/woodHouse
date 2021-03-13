@@ -1,5 +1,6 @@
 // Array for multiple sliders
 const swiperArray = []
+let quizCounter = 0;
 // Single sliders
 const prjSwiper = new Swiper('#project-slider', {
     slidesPerView: 4,
@@ -184,4 +185,23 @@ window.addEventListener('DOMContentLoaded', e => {
             }
         }))
     }
+
+    const quizItems = document.getElementsByClassName('offer-form__content')
+    for (let item of quizItems) {
+        item.classList.add('hidden')
+    }
+    quizItems[0].classList.remove('hidden')
+
+    const next = document.getElementById('next-quiz')
+    next.addEventListener('click', e => {
+        e.preventDefault();
+        quizCounter++;
+        if(quizCounter === 3) {
+            next.classList.add('hidden')
+        }
+        for (let item of quizItems) {
+            item.classList.add('hidden')
+        }
+        quizItems[quizCounter].classList.remove('hidden')
+    })
 })

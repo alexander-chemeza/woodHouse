@@ -77,7 +77,9 @@ html {
 }
 
 input[type='text'],
-input[type='tel'] {
+input[type='tel'],
+input[type='number'],
+input[type='email'] {
     width        : 50%;
     height       : 4rem;
     margin-right : 2rem;
@@ -90,6 +92,12 @@ input[type='tel'] {
     outline      : none;
     caret-color  : #fff;
     color        : #fff;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 
 input[type='submit'] {
