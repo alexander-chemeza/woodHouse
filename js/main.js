@@ -196,12 +196,17 @@ window.addEventListener('DOMContentLoaded', e => {
     next.addEventListener('click', e => {
         e.preventDefault();
         quizCounter++;
-        if(quizCounter === 3) {
+        const progress = document.getElementById('progress');
+        let percent = ((quizCounter + 1) / quizItems.length) * 100;
+
+        if(quizCounter === quizItems.length - 1) {
             next.classList.add('hidden')
         }
         for (let item of quizItems) {
             item.classList.add('hidden')
         }
         quizItems[quizCounter].classList.remove('hidden')
+        progress.innerText = `Вопрос ${quizCounter+1} из ${quizItems.length}`;
+        progress.style.width = `${percent}%`
     })
 })
