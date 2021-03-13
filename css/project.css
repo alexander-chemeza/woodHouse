@@ -17,6 +17,10 @@
     box-sizing: border-box;
 }
 
+.pl-2 {
+    justify-content: space-between;
+}
+
 .project-item {
     background-color: #232227;
     border: 7px solid #1f1e24;
@@ -26,6 +30,11 @@
     align-items: center;
     box-sizing: border-box;
     overflow: hidden;
+}
+
+.pi-2 {
+    width: 24%;
+    margin-bottom: 2rem;
 }
 
 .prj-prev-item, .prj-next-item {
@@ -183,6 +192,10 @@
     .next-item {
         right: -4%;
     }
+
+    .pi-2 {
+        width: 48%;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -198,9 +211,13 @@
     .project-btn {
         padding: 1.25rem 2rem;
     }
+
+    .pi-2 {
+        width: 48%;
+    }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .project .section-header {
         font-size: 3rem;
     }
@@ -221,6 +238,10 @@
     
     .project-btn {
         padding: 1.25rem 2rem;
+    }
+
+    .pi-2 {
+        width: 100%;
     }
 }
 

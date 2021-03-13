@@ -64,7 +64,7 @@
     border: 7px solid #d8bb9c;
     width: 100%;
     display: flex;
-    
+    position: relative;
 }
 
 .stages-box-half {

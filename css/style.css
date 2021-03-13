@@ -14,8 +14,18 @@
 @import url("./contacts.css");
 @import url("./footer.css");
 @import url("./stages.css");
+@import url("./modal.css");
 
-html, body { max-width: 100%; overflow-x: hidden; }
+html, body { max-width: 100%; position: relative;}
+
+
+a, button, input {
+    outline: none !important;
+}
+
+.overflow {
+    overflow: hidden;
+}
 
 html {
     font-size: 10px;
