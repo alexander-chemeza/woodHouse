@@ -1,3 +1,34 @@
+// Add script for youtube video
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+// Using YouTube API
+var player;
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+        height: '360',
+        width: '640',
+        videoId: 'M7lc1UVf-VE',
+        events: {
+            // 'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
+}
+
+function onPlayerStateChange(event) {
+    if (player.getPlayerState() === 0) {
+        setTimeout(stopVideo, 2000);
+    }
+}
+function stopVideo() {
+    document.getElementById('player').classList.add('hidden')
+    document.getElementById('play-btn').classList.remove('hidden')
+    document.querySelector('header').classList.remove('hidden')
+    player.stopVideo();
+}
+
 // Array for multiple sliders
 const swiperArray = []
 let quizCounter = 0;
@@ -199,14 +230,23 @@ window.addEventListener('DOMContentLoaded', e => {
         const progress = document.getElementById('progress');
         let percent = ((quizCounter + 1) / quizItems.length) * 100;
 
-        if(quizCounter === quizItems.length - 1) {
+        if (quizCounter === quizItems.length - 1) {
             next.classList.add('hidden')
         }
         for (let item of quizItems) {
             item.classList.add('hidden')
         }
         quizItems[quizCounter].classList.remove('hidden')
-        progress.innerText = `Вопрос ${quizCounter+1} из ${quizItems.length}`;
+        progress.innerText = `Вопрос ${quizCounter + 1} из ${quizItems.length}`;
         progress.style.width = `${percent}%`
     })
 })
+
+// Video 
+document.getElementById('play-btn').addEventListener('click', e => {
+    document.getElementById('player').classList.remove('hidden')
+    document.getElementById('play-btn').classList.add('hidden')
+    document.querySelector('header').classList.add('hidden')
+    player.playVideo()
+})
+
