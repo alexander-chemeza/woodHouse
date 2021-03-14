@@ -147,6 +147,12 @@
     }
 }
 
+@media (max-width: 1023px) {
+    #play-btn {
+        display: none;
+    }
+}
+
 @media(max-width: 768px) {
     .intro-header {
         padding-top: 25rem;

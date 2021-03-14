@@ -4,6 +4,7 @@ tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 // Using YouTube API
+// !!! To change URL of the video change videoId !!!
 var player;
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
